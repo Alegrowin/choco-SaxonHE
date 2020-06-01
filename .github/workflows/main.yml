@@ -37,11 +37,40 @@ jobs:
           path: SaxonHE*.nupkg
       - 
         name: Display var
-        shell: pwsh
           env:
             SUPER_SECRET: ${{ secrets.CHOCO_API_KEY }}
           run: |
-            echo "$env:SUPER_SECRET"
+            echo "${env:SUPER_SECRET}"
+      - 
+        name: Display var2
+          env:
+            SUPER_SECRET: ${{ secrets.CHOCO_API_KEY }}
+          run: |
+            echo "${$env:SUPER_SECRET}"
+      - 
+        name: Display var3
+          env:
+            SUPER_SECRET: ${{ secrets.CHOCO_API_KEY }}
+          run: |
+            echo "$(env:SUPER_SECRET)"
+      - 
+        name: Display var4
+          env:
+            SUPER_SECRET: ${{ secrets.CHOCO_API_KEY }}
+          run: |
+            echo "$($env:SUPER_SECRET)"
+      - 
+        name: Display var5
+          env:
+            SUPER_SECRET: ${{ secrets.CHOCO_API_KEY }}
+          run: |
+            echo "%SUPER_SECRET%"
+      - 
+        name: Display var6
+          env:
+            SUPER_SECRET: ${{ secrets.CHOCO_API_KEY }}
+          run: |
+            echo "$SUPER_SECRET"
       - 
         name: Push choco package
         uses: crazy-max/ghaction-chocolatey@v1
