@@ -41,4 +41,4 @@ jobs:
         env:
           CHOCO_API_KEY: ${{ secrets.CHOCO_API_KEY }}
         with:
-          args: push -y -k="$env:CHOCO_API_KEY"
+          args: push -y -k $env:CHOCO_API_KEY
