@@ -35,3 +35,10 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           path: SaxonHE*.nupkg
+      - 
+        name: Push choco package
+        uses: crazy-max/ghaction-chocolatey@v1
+        env:
+          CHOCO_API_KEY: ${{ secrets.CHOCO_API_KEY }}
+        with:
+          args: push -y -k=$CHOCO_API_KEY *.nupkg
