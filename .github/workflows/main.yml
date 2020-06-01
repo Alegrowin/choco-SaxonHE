@@ -41,4 +41,4 @@ jobs:
         env:
           CHOCO_API_KEY: ${{ secrets.CHOCO_API_KEY }}
         with:
-          args: push -y -k=$CHOCO_API_KEY *.nupkg
+          args: push -y -k=$CHOCO_API_KEY --source https://chocolatey.org/
