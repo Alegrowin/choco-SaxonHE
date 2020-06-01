@@ -5,6 +5,8 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
+  tags:
+    - '*'
 
 jobs:
   main:
@@ -28,3 +30,8 @@ jobs:
         uses: crazy-max/ghaction-chocolatey@v1
         with:
           args: uninstall SaxonHE
+      - 
+        name: Upload choco package
+        uses: actions/upload-artifact@v2
+        with:
+          path: SaxonHE*.nupkg
