@@ -16,4 +16,8 @@
     <tags>admin saxonhe XSLT XSLT3.0 XQuery3.1 XPath2.0 XPath3.1</tags>
     <packageSourceUrl>https://chocolatey.org/packages/SaxonHE</packageSourceUrl>
   </metadata>
+   <files>
+    <file src="tools/chocolateyinstall.ps1" target="tools/chocolateyinstall.ps1" />
+    <file src="tools/chocolateyUninstall.ps1" target="tools/chocolateyUninstall.ps1" />
+  </files>
 </package>
