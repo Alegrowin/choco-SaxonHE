@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>SaxonHE</id>
+    <version>9.9.1.7</version>
+    <title>Saxon Home Edition XSLT and Xquery Processor</title>
+    <authors>alegrowin</authors>
+    <owners>alegrowin</owners>
+    <licenseUrl>https://github.com/pressbooks/saxon-he/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>http://www.saxonica.com/</projectUrl>
+    <iconUrl>https://a.fsdn.com/allura/p/saxon/icon?1521225980</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Saxon-HE (home edition) is an open source product available under the Mozilla Public License version 2.0. It provides implementations of XSLT (3.0), XQuery (3.1), and XPath (2.0 and 3.1) at the basic level of conformance defined by W3C.</description>
+    <summary>Saxon Home Edition XSLT and Xquery Processor</summary>
+    <releaseNotes>Update to latest version of the binaries</releaseNotes>
+    <tags>admin saxonhe XSLT XSLT3.0 XQuery3.1 XPath2.0 XPath3.1</tags>
+    <packageSourceUrl>https://chocolatey.org/packages/SaxonHE</packageSourceUrl>
+  </metadata>
+</package>
