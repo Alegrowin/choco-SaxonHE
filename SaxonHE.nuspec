@@ -6,7 +6,7 @@
     <title>Saxon Home Edition XSLT and Xquery Processor</title>
     <authors>alegrowin</authors>
     <owners>alegrowin</owners>
-    <licenseUrl>https://github.com/pressbooks/saxon-he/blob/master/LICENSE.md</licenseUrl>
+    <license type="expression">MPL-2.0</license>
     <projectUrl>http://www.saxonica.com/</projectUrl>
     <iconUrl>https://a.fsdn.com/allura/p/saxon/icon?1521225980</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
