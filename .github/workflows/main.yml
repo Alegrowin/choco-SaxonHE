@@ -36,6 +36,13 @@ jobs:
         with:
           path: SaxonHE*.nupkg
       - 
+        name: Display var
+        shell: pwsh
+          env:
+            SUPER_SECRET: ${{ secrets.CHOCO_API_KEY }}
+          run: |
+            echo "$env:SUPER_SECRET"
+      - 
         name: Push choco package
         uses: crazy-max/ghaction-chocolatey@v1
         env:
