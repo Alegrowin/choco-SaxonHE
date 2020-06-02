@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>SaxonHE</id>
     <version>9.9.1.7</version>
     <title>Saxon Home Edition XSLT and Xquery Processor</title>
     <authors>alegrowin</authors>
     <owners>alegrowin</owners>
-    <license type="expression">MPL-2.0</license>
+    <licenseUrl>https://www.saxonica.com/license/license.xml</licenseUrl>
     <projectUrl>http://www.saxonica.com/</projectUrl>
     <iconUrl>https://a.fsdn.com/allura/p/saxon/icon?1521225980</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
